@@ -7,3 +7,6 @@ for l in f:
 	if l.strip():
 		obj = obj = json.loads(l)
 		print(obj['id'])
+		print(obj['created_at'])
+		print(obj['text'])
+		print(obj['user'['screen_name']])
